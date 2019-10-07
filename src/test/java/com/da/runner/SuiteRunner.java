@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:src/owa-regression-report.html" }
 		,tags = { "@owa-wiki" } 
 		, monochrome = true
-		, glue = { "com.da.test" }
+		, glue = { "com.owa.test" }
 		, dryRun = false
 				)
 
