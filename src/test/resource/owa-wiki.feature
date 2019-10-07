@@ -8,10 +8,10 @@ Feature: Outlook
 
     Examples: 
       | username                        | password        | receipient                                | subject      |
-      | STUDY-PVSS-090986-0055@evcdublin.onmicrosoft.com | user@123 | drugtestmailbox@evcdublin.onmicrosoft.com | mailbox test |
+      | STUDY-USW03@teamdefiant.onmicrosoft.com | password | drugtestmailbox@evcdublin.onmicrosoft.com | mailbox test |
 
       
-        @owa-wiki2
+  @owa-wiki
   Scenario Outline: Sending Email
     Given a user with has a new email open in the Outlook Email page Send
       | username   | password   | receipient   | subject   |
@@ -19,5 +19,5 @@ Feature: Outlook
 
     Examples: 
       | username                        | password        | receipient                                | subject      |
-      | admin@evcdublin.onmicrosoft.com | FolderSync2019+ | STUDY-PVSS-090986-0055@evcdublin.onmicrosoft.com | mailbox test |
+      | admin@teamdefiant.onmicrosoft.com | password |EVC-3595@teamdefiant.onmicrosoft.com | mailbox test |
       
