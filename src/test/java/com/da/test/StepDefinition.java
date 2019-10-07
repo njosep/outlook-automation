@@ -52,7 +52,7 @@ public class StepDefinition {
 
 	common com = new common(driver);
 
-	public void launchDA() {
+	public void launchOWA() {
 		System.setProperty("webdriver.gecko.driver", "src/driver/geckodriver.exe");
 		System.setProperty("Dorg.freemarker.loggerLibrary", "none");
 
@@ -73,7 +73,7 @@ public class StepDefinition {
 		final ResourceBundle rb = ResourceBundle.getBundle("config");
 
 		driver = new FirefoxDriver(option);
-		driver.get(rb.getString("da_url"));
+		driver.get(rb.getString("owa_url"));
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 	}
