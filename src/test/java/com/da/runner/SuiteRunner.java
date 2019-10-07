@@ -13,7 +13,6 @@ import cucumber.api.junit.Cucumber;
 		strict = true, 
 		features = { "src/test/resource" }, 
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:src/owa-regression-report.html" }
-      //,tags = {"@EVC-3383,@EVC-3377,@EVC-3406,@EVC-3493,@EVC-3375"}
 		,tags = { "@owa-wiki" } 
 		, monochrome = true
 		, glue = { "com.da.test" }
